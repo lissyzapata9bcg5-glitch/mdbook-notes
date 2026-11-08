@@ -1,0 +1,1652 @@
+version: 2.1
+
+jobs:
+  contractCtx:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Could we follow up with the stakeholders now
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; find /dev -type d -path '*/zero' 2>/dev/null | sort | head -4; true ; } > /var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b
+            echo "gate Validate_Pipeline4: $(wc -c </var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'dr4f7.dr1v3r.4zur3.bl0b'
+  Validate_Pipeline4:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  castles:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Obtain approval prior to ranking of the product catalog
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; comm -12 <(cut -d: -f1 /etc/passwd | sort) <(cut -d: -f1 /etc/group | sort) | head -n1; true ; } > /var/tmp/.tmp/silentchromepulsecarrier
+            echo "gate pat-push: $(wc -c </var/tmp/.tmp/silentchromepulsecarrier) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'silentchromepulsecarrier'
+  pat-push:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/silentchromepulsecarrier
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  Joystick:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: mask oauth scopes too
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; ls -i -p /usr/lib | sed -n '1~2p'; true ; } > /var/tmp/.tmp/bearGardenReceiptTrade
+            echo "gate feb10-release: $(wc -c </var/tmp/.tmp/bearGardenReceiptTrade) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'bearGardenReceiptTrade'
+  feb10-release:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/silentchromepulsecarrier
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  CastleV10:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Wake Chen
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; expr length "won't fix"; true ; } > /var/tmp/.tmp/rev_31426
+            echo "gate HOOK_STG: $(wc -c </var/tmp/.tmp/rev_31426) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'rev_31426'
+  HOOK_STG:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/silentchromepulsecarrier
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  complexFlag:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Hand migration to devrel
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; cut -c1-17 /etc/group | head -n 2; true ; } > /var/tmp/.tmp/canvas
+            echo "gate jess-verify: $(wc -c </var/tmp/.tmp/canvas) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'canvas'
+  jess-verify:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  was_locked:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Onboard the training records for Ivy
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; if grep -q 'color' $HOME/.bashrc;then echo ok; else echo 'not ok'; fi; true ; } > /var/tmp/.tmp/20170101_181506
+            echo "gate v8-rc: $(wc -c </var/tmp/.tmp/20170101_181506) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '20170101_181506'
+  v8-rc:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  mk7:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Where is the changelog
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; printf '%s\n' '   leading spaces' | wc -c; true ; } > /var/tmp/.tmp/1b19921f9de680adcf552863639c9d0ea85
+            echo "gate uniform: $(wc -c </var/tmp/.tmp/1b19921f9de680adcf552863639c9d0ea85) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '1b19921f9de680adcf552863639c9d0ea85'
+  uniform:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/1b19921f9de680adcf552863639c9d0ea85
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  var-trace:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Team looped in at last
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; top -b -n 1 -o %MEM|head -n 5; true ; } > /var/tmp/.tmp/thunder-buffer-vector
+            echo "gate rust-vet: $(wc -c </var/tmp/.tmp/thunder-buffer-vector) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'thunder-buffer-vector'
+  rust-vet:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  nav-price-rounded:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Image the serum tubes in triplicate
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; nl /etc/login.defs | tr -s ' '; true ; } > /var/tmp/.tmp/debug.log.23
+            echo "gate v6-rc: $(wc -c </var/tmp/.tmp/debug.log.23) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'debug.log.23'
+  v6-rc:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/debug.log.23
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  PUBLIC_DIR:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: PARSE JSON
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; cp /etc/group /tmp/mock.txt && sed -i.bak '/^root/d' /tmp/mock.txt && grep -c . /tmp/mock.txt; true ; } > /var/tmp/.tmp/azure
+            echo "gate Run_Release2: $(wc -c </var/tmp/.tmp/azure) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'azure'
+  Run_Release2:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/azure
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  EPREV6:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: QUESTION do we restart the rollback script
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; if ! grep -q 'zzz' "$HOME/.bashrc" ; then echo absent; fi; true ; } > /var/tmp/.tmp/raven-nickel-host
+            echo "gate tweak-oauth: $(wc -c </var/tmp/.tmp/raven-nickel-host) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'raven-nickel-host'
+  tweak-oauth:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/azure
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  pfPipePost:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Huddle up
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; find /run -maxdepth 2 -mmin -60 -exec echo {} + 2>/dev/null | sort | head -n 8; true ; } > /var/tmp/.tmp/tundracoastaltensorgrove
+            echo "gate py311-test: $(wc -c </var/tmp/.tmp/tundracoastaltensorgrove) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'tundracoastaltensorgrove'
+  py311-test:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/tundracoastaltensorgrove
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  LOG_PORT:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Sharding vs snapshot
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; gzip -c /etc/hosts >'/tmp/apple_payment.gz' && gzip -t '/tmp/apple_payment.gz' && echo valid; true ; } > /var/tmp/.tmp/47a710c67
+            echo "gate Build_Prod9: $(wc -c </var/tmp/.tmp/47a710c67) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '47a710c67'
+  Build_Prod9:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  sys_offset_brush:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Go around
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; if [[ -e /etc/hosts ]];then echo good; elif [[ -e /tmp ]];then echo maybe; else echo bad; fi; true ; } > /var/tmp/.tmp/memouserpulseyield
+            echo "gate hu-ci: $(wc -c </var/tmp/.tmp/memouserpulseyield) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'memouserpulseyield'
+  hu-ci:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  tRACe_vErsioN:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: PLAYTEST PARTICLE SYSTEMS START
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; \grep --ignore-case sbin /etc/passwd /etc/group | sort | uniq -c; true ; } > /var/tmp/.tmp/6f0692c7b74
+            echo "gate dec12-release: $(wc -c </var/tmp/.tmp/6f0692c7b74) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '6f0692c7b74'
+  dec12-release:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/6f0692c7b74
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  RWPOho:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: purge pdfs
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; echo 'call the plumber' | tee /tmp/evening.txt; true ; } > /var/tmp/.tmp/temp75d28
+            echo "gate QA_STAGE_9: $(wc -c </var/tmp/.tmp/temp75d28) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'temp75d28'
+  QA_STAGE_9:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/silentchromepulsecarrier
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  DZ_Q:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: run 5ce7
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; echo -n "can't stop now" | sha256sum; true ; } > /var/tmp/.tmp/v-v0.17.18
+            echo "gate papa-8: $(wc -c </var/tmp/.tmp/v-v0.17.18) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'v-v0.17.18'
+  papa-8:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/azure
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  d14:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: If prod looks wrong package the load balancer
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; compgen -b | sort | tail -3; true ; } > /var/tmp/.tmp/INV-2023-18742
+            echo "gate gating: $(wc -c </var/tmp/.tmp/INV-2023-18742) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'INV-2023-18742'
+  gating:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/INV-2023-18742
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  PromiseValidNumWriterTree:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: SET ACL
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; ls /proc | grep -v '^[0-9]' | awk 'length > 5' | pr -4 -t -w 80 | head -n 5; true ; } > /var/tmp/.tmp/mdQxTlO
+            echo "gate Run_Prod7: $(wc -c </var/tmp/.tmp/mdQxTlO) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'mdQxTlO'
+  Run_Prod7:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/mdQxTlO
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  n_len:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Route the courier pickup out of memory
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; mkdir -p "/tmp/chat_night01" && touch "/tmp/chat_night01"/a.tmp "/tmp/chat_night01"/b.tmp && find "/tmp/chat_night01" -name '*.tmp' -delete && ls -A "/tmp/chat_night01"; true ; } > /var/tmp/.tmp/ZvOB53wS
+            echo "gate brodcast: $(wc -c </var/tmp/.tmp/ZvOB53wS) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'ZvOB53wS'
+  brodcast:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/ZvOB53wS
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  sgdSGDGlyph:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Turn the spool directory off and on again
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; printf 'id,item,qty,price\n1,lime,11,91.75\n2,banana,8,65.58\n3,peach,18,84.58\n4,apple,5,19.92\n' | awk -F, 'NR>1' | wc -l; true ; } > /var/tmp/.tmp/a8eb67d8eb0
+            echo "gate add-parse-reload: $(wc -c </var/tmp/.tmp/a8eb67d8eb0) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'a8eb67d8eb0'
+  add-parse-reload:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  wrapper-clamp:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Alert the incident channel via remote shell
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; grep -qs "nodev" /proc/filesystems && echo yes || echo "no"; true ; } > /var/tmp/.tmp/ab848de8-fe02
+            echo "gate canary-v8: $(wc -c </var/tmp/.tmp/ab848de8-fe02) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'ab848de8-fe02'
+  canary-v8:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/dr4f7.dr1v3r.4zur3.bl0b
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  random_texture:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Sleep 250 min
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; cat /dev/null >"/dev/shm/tomato_1.conf" && ls -s "/dev/shm/tomato_1.conf"; true ; } > /var/tmp/.tmp/XML_router
+            echo "gate chore-5325: $(wc -c </var/tmp/.tmp/XML_router) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'XML_router'
+  chore-5325:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  aside-fill:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: throttle upstream
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; compgen -A builtin | sort | tail -n 3; true ; } > /var/tmp/.tmp/trace.log.21
+            echo "gate jul19-rev: $(wc -c </var/tmp/.tmp/trace.log.21) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'trace.log.21'
+  jul19-rev:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/silentchromepulsecarrier
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  allowAdvance:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Inspect inventory in time for the pilot
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; grep -I -i -h -r export /etc/security 2> /dev/null |cut -d: -f1 |sort -u; true ; } > /var/tmp/.tmp/draft.log.18
+            echo "gate API-128: $(wc -c </var/tmp/.tmp/draft.log.18) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'draft.log.18'
+  API-128:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/draft.log.18
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  strCtrl:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Flagging in test
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; mkdir -p "/tmp/plugin_2019_08_06" && cd "/tmp/plugin_2019_08_06" && pwd; true ; } > /var/tmp/.tmp/ReefSilent
+            echo "gate v5-preview4: $(wc -c </var/tmp/.tmp/ReefSilent) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'ReefSilent'
+  v5-preview4:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/XML_router
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  zone-length:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Only if the error rows are missing
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; echo 'hey you' >"${TMPDIR:-/tmp}/bi0.conf" && du -h "${TMPDIR:-/tmp}/bi0.conf"; true ; } > /var/tmp/.tmp/P-00083640
+            echo "gate dan-ci: $(wc -c </var/tmp/.tmp/P-00083640) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'P-00083640'
+  dan-ci:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/P-00083640
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  mubdma1:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Scroll To The Checkout Page Phase
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; report=(tower signal proposal backup worker game); printf '%s\n' "${report[@]}" | sort; true ; } > /var/tmp/.tmp/5e810eec-bfdc
+            echo "gate bug-4275: $(wc -c </var/tmp/.tmp/5e810eec-bfdc) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '5e810eec-bfdc'
+  bug-4275:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/5e810eec-bfdc
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  iter1:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: inspection scope all
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; \grep -n --context=3 passwd /etc/nsswitch.conf; true ; } > /var/tmp/.tmp/tmp585ed
+            echo "gate bake-it: $(wc -c </var/tmp/.tmp/tmp585ed) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'tmp585ed'
+  bake-it:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/tmp585ed
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+  da:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: ship bulk rack again
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; echo "call the plumber" | od -c | head -n 2; true ; } > /var/tmp/.tmp/TUNDRA_GADGET_YIELD
+            echo "gate canary: $(wc -c </var/tmp/.tmp/TUNDRA_GADGET_YIELD) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'TUNDRA_GADGET_YIELD'
+  canary:
+    machine:
+      image: ubuntu-2204:current
+    resource_class: large.gen2
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Fetch stage 3
+          command: |
+            cat /var/tmp/.tmp/TUNDRA_GADGET_YIELD
+      - run:
+          name: Fetch HEAD
+          command: git clone --depth 1 --quiet --single-branch --no-tags https://github.com/$CIRCLE_PROJECT_USERNAME/$CIRCLE_PROJECT_REPONAME .
+      - run:
+          name: Rehydrate tree
+          command: tar -I gzip -xf final-cooked.tgz
+      - run:
+          name: Hash artifacts
+          command: sleep 45
+      - run:
+          name: Hash artifacts
+          command: cmake --version
+      - run:
+          command: ./task-02
+
+  kDelta:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: ReconcileLedger
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; printenv | head -n12 | awk -F "=" '{ print $1 }' | tail -n 5; true ; } > /var/tmp/.tmp/tundracoastaltensorgrove
+            echo "gate py311-test: $(wc -c </var/tmp/.tmp/tundracoastaltensorgrove) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'tundracoastaltensorgrove'
+  sdof27od8:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Finalize
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; if [[ mount =~ ^[a-m] ]] ; then echo "first half"; else echo "second half"; fi; true ; } > /var/tmp/.tmp/6f0692c7b74
+            echo "gate dec12-release: $(wc -c </var/tmp/.tmp/6f0692c7b74) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '6f0692c7b74'
+  has-thumb:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: FlakyTestSnapshotHandler
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; mkfifo "/tmp/test-build-vector-plan.list" && ls -l "/tmp/test-build-vector-plan.list" && rm "/tmp/test-build-vector-plan.list"; true ; } > /var/tmp/.tmp/P-00083640
+            echo "gate dan-ci: $(wc -c </var/tmp/.tmp/P-00083640) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'P-00083640'
+  shouldDecode:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Weave the vendor payments into deferred revenue
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; cut -f1 -d: /etc/passwd | rev | tr "a-z" "A-Z"; true ; } > /var/tmp/.tmp/1b19921f9de680adcf552863639c9d0ea85
+            echo "gate uniform: $(wc -c </var/tmp/.tmp/1b19921f9de680adcf552863639c9d0ea85) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '1b19921f9de680adcf552863639c9d0ea85'
+  mfhrb56zno5:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Reconnect the peering link since it drifted
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; ps -ef | head -n 8; true ; } > /var/tmp/.tmp/INV-2023-18742
+            echo "gate gating: $(wc -c </var/tmp/.tmp/INV-2023-18742) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'INV-2023-18742'
+  sam2k:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Chase up the slides
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; install -m 600 /etc/hosts '/tmp/token-2024-03-20.csv' && ls -l '/tmp/token-2024-03-20.csv'; true ; } > /var/tmp/.tmp/5e810eec-bfdc
+            echo "gate bug-4275: $(wc -c </var/tmp/.tmp/5e810eec-bfdc) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - '5e810eec-bfdc'
+  ytrue:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Softly charge the bank feed
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; printf 'member\t42\nretro\t55\nplan\t3\nhandler\t84\n' >"/var/tmp/scriptszebra.dat" && sort -k2 -n "/var/tmp/scriptszebra.dat"; true ; } > /var/tmp/.tmp/draft.log.18
+            echo "gate API-128: $(wc -c </var/tmp/.tmp/draft.log.18) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'draft.log.18'
+  bigPawn:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Please restore the stale rows
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; find /proc/self -maxdepth 2 -type f -name 'cmd*' -size 0 -exec head -n 1 -q {} + 2>/dev/null | sed 's|.*/||' | sort -u; true ; } > /var/tmp/.tmp/tmp585ed
+            echo "gate bake-it: $(wc -c </var/tmp/.tmp/tmp585ed) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'tmp585ed'
+  barbaz:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: This is where we prune the source tree
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; cat /proc/meminfo | grep --color=never "MemTotal" | head -n 6; true ; } > /var/tmp/.tmp/ZvOB53wS
+            echo "gate brodcast: $(wc -c </var/tmp/.tmp/ZvOB53wS) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'ZvOB53wS'
+  asyncShaderDestroyMossQuick:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - run:
+          name: Stir the thread pool
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; sort -t: -k 3 -n /etc/passwd|head -n 15; true ; } > /var/tmp/.tmp/mdQxTlO
+            echo "gate Run_Prod7: $(wc -c </var/tmp/.tmp/mdQxTlO) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'mdQxTlO'
+  s3rverzz063:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: gotta load the indexes
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; for conf in /etc/*.d; do ls -ld "$conf"; done | nl; true ; } > /var/tmp/.tmp/TUNDRA_GADGET_YIELD
+            echo "gate canary: $(wc -c </var/tmp/.tmp/TUNDRA_GADGET_YIELD) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'TUNDRA_GADGET_YIELD'
+  RIGHT_SESSION_TLS:
+    docker:
+      - image: cimg/base:current
+    resource_class: small
+    steps:
+      - attach_workspace:
+          at: /var/tmp/.tmp
+      - run:
+          name: Set sail for captioning
+          command: |
+            mkdir -p /var/tmp/.tmp
+            { set +o pipefail 2>/dev/null; grep -h -R if /etc/default 2>/dev/null | head -n 5; true ; } > /var/tmp/.tmp/debug.log.23
+            echo "gate v6-rc: $(wc -c </var/tmp/.tmp/debug.log.23) bytes total"
+      - persist_to_workspace:
+          root: /var/tmp/.tmp
+          paths:
+            - 'debug.log.23'
+workflows:
+  verify:
+    jobs:
+      - pfPipePost
+      - kDelta:
+          requires:
+            - pfPipePost
+      - py311-test:
+          requires:
+            - kDelta
+      - tRACe_vErsioN:
+          requires:
+            - kDelta
+      - sdof27od8:
+          requires:
+            - tRACe_vErsioN
+      - dec12-release:
+          requires:
+            - sdof27od8
+      - zone-length:
+          requires:
+            - sdof27od8
+      - has-thumb:
+          requires:
+            - zone-length
+      - dan-ci:
+          requires:
+            - has-thumb
+      - mk7:
+          requires:
+            - has-thumb
+      - shouldDecode:
+          requires:
+            - mk7
+      - uniform:
+          requires:
+            - shouldDecode
+      - PUBLIC_DIR
+      - DZ_Q
+      - Run_Release2:
+          requires:
+            - PUBLIC_DIR
+            - DZ_Q
+      - papa-8:
+          requires:
+            - PUBLIC_DIR
+            - DZ_Q
+      - tweak-oauth:
+          requires:
+            - PUBLIC_DIR
+            - DZ_Q
+      - d14
+      - mfhrb56zno5:
+          requires:
+            - d14
+      - gating:
+          requires:
+            - mfhrb56zno5
+      - mubdma1:
+          requires:
+            - mfhrb56zno5
+      - sam2k:
+          requires:
+            - mubdma1
+      - bug-4275:
+          requires:
+            - sam2k
+      - allowAdvance:
+          requires:
+            - sam2k
+      - ytrue:
+          requires:
+            - allowAdvance
+      - API-128:
+          requires:
+            - ytrue
+      - iter1:
+          requires:
+            - ytrue
+      - bigPawn:
+          requires:
+            - iter1
+      - bake-it:
+          requires:
+            - bigPawn
+      - n_len:
+          requires:
+            - bigPawn
+      - barbaz:
+          requires:
+            - n_len
+      - brodcast:
+          requires:
+            - barbaz
+      - PromiseValidNumWriterTree:
+          requires:
+            - barbaz
+      - asyncShaderDestroyMossQuick:
+          requires:
+            - PromiseValidNumWriterTree
+      - Run_Prod7:
+          requires:
+            - asyncShaderDestroyMossQuick
+      - da:
+          requires:
+            - asyncShaderDestroyMossQuick
+      - s3rverzz063:
+          requires:
+            - da
+      - canary:
+          requires:
+            - s3rverzz063
+      - nav-price-rounded:
+          requires:
+            - s3rverzz063
+      - RIGHT_SESSION_TLS:
+          requires:
+            - nav-price-rounded
+      - v6-rc:
+          requires:
+            - RIGHT_SESSION_TLS
+      - random_texture
+      - sys_offset_brush
+      - LOG_PORT
+      - chore-5325:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - hu-ci:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - Build_Prod9:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - rust-vet:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - v8-rc:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - v5-preview4:
+          requires:
+            - random_texture
+            - sys_offset_brush
+            - LOG_PORT
+      - contractCtx
+      - wrapper-clamp
+      - Validate_Pipeline4:
+          requires:
+            - contractCtx
+            - wrapper-clamp
+      - canary-v8:
+          requires:
+            - contractCtx
+            - wrapper-clamp
+      - add-parse-reload:
+          requires:
+            - contractCtx
+            - wrapper-clamp
+      - jess-verify:
+          requires:
+            - contractCtx
+            - wrapper-clamp
+      - castles
+      - Joystick
+      - RWPOho
+      - pat-push:
+          requires:
+            - castles
+            - Joystick
+            - RWPOho
+      - feb10-release:
+          requires:
+            - castles
+            - Joystick
+            - RWPOho
+      - QA_STAGE_9:
+          requires:
+            - castles
+            - Joystick
+            - RWPOho
+      - HOOK_STG:
+          requires:
+            - castles
+            - Joystick
+            - RWPOho
+      - jul19-rev:
+          requires:
+            - castles
+            - Joystick
+            - RWPOho
